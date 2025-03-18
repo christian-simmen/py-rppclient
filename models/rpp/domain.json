@@ -1,0 +1,55 @@
+{
+  "name": "string",
+  "duration": "string",
+  "registrant": [
+    "string"
+  ],
+  "authInfo": {
+    "pw": "string",
+    "hash": "string"
+  },
+  "ns": {
+    "hostObj": [
+      {
+        "name": "string",
+        "addr": {
+          "ipv4": [
+            "string"
+          ],
+          "ipv6": [
+            "string"
+          ]
+        }
+      }
+    ],
+    "hostAttr": [
+      {
+        "name": "string",
+        "addr": {
+          "ipv4": [
+            "string"
+          ],
+          "ipv6": [
+            "string"
+          ]
+        }
+      }
+    ]
+  },
+  "contacts": [
+    {
+      "value": "string",
+      "type": [
+        "registrant"
+      ]
+    }
+  ],
+  "dnsSEC": [
+    {
+      "keyTag": "string",
+      "algorithm": "string",
+      "digestType": "string",
+      "digest": "string"
+    }
+  ]
+}
