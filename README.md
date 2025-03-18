@@ -2,18 +2,20 @@
 
 RPP is still work in progress. For more information about the current progress please see:
 
-* (IETF WG)[https://datatracker.ietf.org/group/rpp/about/]
-* (RPP WG Github Organization)[https://github.com/ietf-wg-rpp]
-* (RPP WG Wiki)[https://wiki.ietf.org/en/group/rpp]
+* [IETF WG](https://datatracker.ietf.org/group/rpp/about/)
+* [RPP WG Github Organization](https://github.com/ietf-wg-rpp)
+* [RPP WG Wiki](https://wiki.ietf.org/en/group/rpp)
 
-This program was part of the (IETF 122 Hackathon)[https://wiki.ietf.org/en/group/rpp/rpp-hackathon]
+This program was part of the [IETF 122 Hackathon](https://wiki.ietf.org/en/group/rpp/rpp-hackathon)
 
 ## What to expect
+
 * GET a domain object from a server
-*
+* Interactive mode for filling Template
 
 ## What NOT to expect
-For RPP is not fully defined most of the (requirements)[https://github.com/SIDN/ietf-wg-rpp-charter/blob/main/requirements.md] are not implemented yet.
+
+For RPP is not fully defined most of the [requirements](https://github.com/SIDN/ietf-wg-rpp-charter/blob/main/requirements.md) are not implemented yet.
 
 ## Usage
 
@@ -36,6 +38,7 @@ options:
 ```
 
 ## Examples
+
 ```bash
 # create example.de
 ./py-rppclient.py create --base_url "http://127.0.0.1:8000" --domain_id example.de -i
@@ -54,4 +57,5 @@ options:
 ```
 
 ## Set up a Server
-see https://github.com/SIDN/ietf-rpp-api/tree/pawelk/dev/rpp_server_python_connexion
+
+see [https://github.com/SIDN/ietf-rpp-api/tree/pawelk/dev/rpp_server_python_connexion]
